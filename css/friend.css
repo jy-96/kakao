@@ -6,6 +6,7 @@
 
 .friend .friend__avatar {
   width: 50px;
+  height: 55px;
   border-radius: 38%;
 }
 
@@ -24,6 +25,7 @@
 
 .friend__column .friend__avatar {
   margin-right: 15px;
+  object-fit: cover;
 }
 
 .friend__content .friend__name {
@@ -60,6 +62,8 @@
 
 .friend__now-listening i {
   font-size: 11px;
+  margin-right: -10px;
+  margin-left: 10px;
 }
 
 .friend__add-btn {
@@ -69,4 +73,8 @@
   align-items: center;
   background-color: #f5f5f5;
   border-radius: 5px;
+}
+
+.friends .friends__list .friends__friend {
+    margin: 20px 0;
 }
